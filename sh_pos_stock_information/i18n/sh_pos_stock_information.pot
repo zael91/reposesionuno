@@ -1,0 +1,67 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_pos_stock_information
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-18 12:23+0000\n"
+"PO-Revision-Date: 2021-09-18 12:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_pos_stock_information
+#: model:ir.model.fields.selection,name:sh_pos_stock_information.selection__pos_config__sh_manage_stock__both
+msgid "Both"
+msgstr ""
+
+#. module: sh_pos_stock_information
+#: model:ir.model.fields.selection,name:sh_pos_stock_information.selection__pos_config__sh_manage_stock__on_hand_qty
+msgid "Display On Hand Qty"
+msgstr ""
+
+#. module: sh_pos_stock_information
+#: model:ir.model.fields,field_description:sh_pos_stock_information.field_pos_config__sh_enable_on_hand_qty
+msgid "Display Stock Information"
+msgstr ""
+
+#. module: sh_pos_stock_information
+#: model:ir.model.fields.selection,name:sh_pos_stock_information.selection__pos_config__sh_manage_stock__available_qty
+msgid "Display Virtual Quantity"
+msgstr ""
+
+#. module: sh_pos_stock_information
+#. openerp-web
+#: code:addons/sh_pos_stock_information/static/src/xml/pos.xml:0
+#: code:addons/sh_pos_stock_information/static/src/xml/pos.xml:0
+#: code:addons/sh_pos_stock_information/static/src/xml/pos.xml:0
+#: code:addons/sh_pos_stock_information/static/src/xml/pos.xml:0
+#, python-format
+msgid "On Hand Qty"
+msgstr ""
+
+#. module: sh_pos_stock_information
+#: model:ir.model,name:sh_pos_stock_information.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr ""
+
+#. module: sh_pos_stock_information
+#: model:ir.model.fields,field_description:sh_pos_stock_information.field_pos_config__sh_manage_stock
+#: model_terms:ir.ui.view,arch_db:sh_pos_stock_information.sh_pos_stock_information_config
+msgid "Stock Information"
+msgstr ""
+
+#. module: sh_pos_stock_information
+#. openerp-web
+#: code:addons/sh_pos_stock_information/static/src/xml/pos.xml:0
+#: code:addons/sh_pos_stock_information/static/src/xml/pos.xml:0
+#: code:addons/sh_pos_stock_information/static/src/xml/pos.xml:0
+#: code:addons/sh_pos_stock_information/static/src/xml/pos.xml:0
+#, python-format
+msgid "Virtual Qty"
+msgstr ""
