@@ -1,0 +1,11 @@
+.pos .sh_display_positive_qty,.pos .sh_display_positive_virtual_qty{background-color: green;border-radius: 3px;position: absolute;top: 5px;font-size: 12px;line-height: 13px;z-index: 1000;color: white;padding: 2px 5px;}
+.pos .sh_display_positive_qty span,.sh_display_nagative_qty span{line-height: 12px;}
+.pos .sh_display_nagative_qty,.pos .sh_display_nagative_virtual_qty{background-color: red; border-radius: 3px; position: absolute; top: 5px;  font-size: 12px;  line-height: 13px;   z-index: 1000;  color: white; padding: 2px 5px;}
+.pos .sh_display_positive_qty,.pos .sh_display_nagative_qty{left: 4px;}
+.pos .sh_display_positive_virtual_qty.sh_both_qty_visible{right: 4px;}
+.pos .sh_both_qty_visible.sh_display_nagative_virtual_qty{right: 4px;}
+.pos span.sh_display_positive_qty.sh_both_qty_visible{/*top: 20px !important;*/right: 4px;left: auto;}
+
+.pos .no-image { 
+    margin-top: 25px !important;
+}
